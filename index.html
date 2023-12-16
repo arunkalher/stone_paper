@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STONE PAPER SCISSORS</title>
+   <style>
+    body{
+        background-color: #90ec9e;
+    }
+    #main_div{
+   
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #7882bf;
+        height: 250px;
+        width: 450px;
+        padding: 11px;
+        padding-left: 51px;
+        margin-left: 31%;
+        margin-top: 11%;
+        color:#353931;
+        font-family: Georgia;
+ 
+       font-family: system-ui, sans-serif;
+    }
+    .btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3e87b8, #2980b9);
+  background-image: linear-gradient(to bottom,  #cbd8d1, #a19bf5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 12;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #4d36e2;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #52dae4;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+   </style>
+</head>
+<body>
+    <div id="main_div">
+
+    
+    <h2>USER CHOICE     : <span id="user_choice"></span></h2>
+    <h2>COMPUTER CHOICE : <span id="computer_choice"></span></h2>
+    <h2>RESULT          : <span id="result"></span></h2>
+    <button class="btn" id="STONE">STONE</button>
+    <button class="btn" id="PAPER">PAPER</button>
+    <button class="btn" id="SCISSOR">SCISSOR</button>
+    <script src="index.js"></script>
+    </div>
+
+</body>
+</html>
